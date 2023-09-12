@@ -1,0 +1,29 @@
+.app h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.app .flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.app .flex .input {
+  width: 100%;
+}
+
+.app .flex input {
+  width: 100%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.app .flex button {
+  width: 50px;
+  background: #4c8dee;
+  border: 1px solid #4c8dee;
+  color: #ffffff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
